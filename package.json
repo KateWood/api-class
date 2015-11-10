@@ -1,0 +1,19 @@
+{
+  "name": "api-class",
+  "version": "1.0.0",
+  "description": "Intro and Producing APIs with Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KateWood/api-class.git"
+  },
+  "author": "Kate Wood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KateWood/api-class/issues"
+  },
+  "homepage": "https://github.com/KateWood/api-class#readme"
+}
