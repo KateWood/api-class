@@ -7,4 +7,12 @@ api.get('/', function(req, res) {
 	res.json(data)
 })
 
+api.get('/students', function(req, res) {
+	res.json(data.students)
+})
+
+api.get('/students/:id', function(req, res) {
+	res.json(data.students[req.params.id - 1])
+})
+
 module.exports = api
