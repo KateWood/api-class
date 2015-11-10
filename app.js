@@ -7,6 +7,8 @@ app.get('/', function(req, res) {
 	res.json({message: "Welcome to my app!"})
 })
 
+app.use('/api', apiRoutes)
+
 app.listen(port, function() {
 	console.log("Server is running on", port)
 })
