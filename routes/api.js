@@ -12,7 +12,7 @@ api.get('/students', function(req, res) {
 })
 
 api.get('/students/:id', function(req, res) {
-	res.json(data.students[req.params.id -1])
+	res.json(data.students[req.params.id - 1])
 })
 
 module.exports = api
