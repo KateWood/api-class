@@ -20,4 +20,9 @@ api.post('/students', function(req, res) {
 	res.json(data.students)
 })
 
+api.delete('/students/:id', function(req, res) {
+	data.students.splice(req.params.id - 1, 1)
+	res.json(data.students)
+})
+
 module.exports = api
