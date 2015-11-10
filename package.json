@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KateWood/api-class/issues"
   },
-  "homepage": "https://github.com/KateWood/api-class#readme"
+  "homepage": "https://github.com/KateWood/api-class#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
