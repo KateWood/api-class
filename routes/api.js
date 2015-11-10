@@ -15,4 +15,9 @@ api.get('/students/:id', function(req, res) {
 	res.json(data.students[req.params.id - 1])
 })
 
+api.post('/students', function(req, res) {
+	data.students.push({name: "Some New Student", email: "newstudent@gmail.com"})
+	res.json(data.students)
+})
+
 module.exports = api
