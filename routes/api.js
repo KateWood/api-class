@@ -25,4 +25,10 @@ api.delete('/students/:id', function(req, res) {
 	res.json(data.students)
 })
 
+api.put('/students/:id', function(req, res) {
+	data.students[req.params.id - 1].name = "Kate"
+	data.students[req.params.id - 1].email = "kate@kate.com"
+	res.json(data.students)
+})
+
 module.exports = api
